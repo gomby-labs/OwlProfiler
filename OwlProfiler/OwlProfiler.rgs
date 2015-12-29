@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'OwlProfiler'
+		'OwlProfiler.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
